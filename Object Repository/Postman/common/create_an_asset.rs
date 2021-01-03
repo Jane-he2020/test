@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>create_an_asset</name>
+   <tag></tag>
+   <elementGuidId>b8724823-51f9-43a8-99d5-05b20a3295c8</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n\&quot;id\&quot;: \&quot;9P0D0Z8AQPGVCTZAxm3k3g\&quot;,\n\&quot;clientId\&quot;: \&quot;cCoveRcDTfaeEG8-xULBZg\&quot;,\n\&quot;assignedFileName\&quot;: \&quot;ce6375c930fb5a62fd7412aa102a81bc.png\&quot;, \n\&quot;originalFileName\&quot;: \&quot;megaman-1.png\&quot;,\n\&quot;characterSet\&quot;: \&quot;UTF-8\&quot;,\n\&quot;contentType\&quot;: \&quot;image/png\&quot;,\n\&quot;size\&quot;: 1613,\n\&quot;url\&quot;: \&quot;/Users/cityfruit-spf/Desktop/1.png\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>${token}</value>
+   </httpHeaderProperties>
+   <katalonVersion>7.8.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${server_url}/assets?token=${token}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.server_url</defaultValue>
+      <description></description>
+      <id>ec483ee0-367f-4911-b4d0-29840245d6a9</id>
+      <masked>false</masked>
+      <name>server_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.token</defaultValue>
+      <description></description>
+      <id>61bf3adf-1798-4e8a-914e-bdeb62a795aa</id>
+      <masked>false</masked>
+      <name>token</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
